@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.79),rgba(0,0,0,0.75)), url(Y2Mate.is\ -\ LISA\ OLENS\ TWIXTOR-E2EFG8jYn4s-1080p-1655053260661.mp4);
+    background-size: cover;
+    background-position:center ;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{ 
+    width: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #6a1900;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.content p{
+    margin-top: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+.button-container .button:hover {
+    box-shadow: 0 0 10px #3c0b00c7;
+  }
+
+  button-container .button:active {
+    transform: scale(0.95);
+  }
+
+  *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #E0E4E5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrap{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+
+.wrap > h1{
+	color: #494B4D;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.wrap > h1:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #C7C7C7;
+	margin: 20px 0;
+}
+
+.store-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.category_list{
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.category_list .category_item{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	background: #E84C3D;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.category_list .ct_item-active{
+	background: #2D3E50;
+}
+
+.fr-clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 0; }
+  
+  .fr-hide-by-clipping {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0; }
+  
+  .fr-view img.fr-rounded, .fr-view .fr-img-caption.fr-rounded img {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; }
+  
+  .fr-view img.fr-shadow, .fr-view .fr-img-caption.fr-shadow img {
+    -webkit-box-shadow: 10px 10px 5px 0px #cccccc;
+    -moz-box-shadow: 10px 10px 5px 0px #cccccc;
+    box-shadow: 10px 10px 5px 0px #cccccc; }
+  
+  .fr-view img.fr-bordered, .fr-view .fr-img-caption.fr-bordered img {
+    border: solid 5px #CCC; }
+  
+  .fr-view img.fr-bordered {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; }
+  
+  .fr-view .fr-img-caption.fr-bordered img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  .fr-view {
+    word-wrap: break-word; }
+    .fr-view span[style~="color:"] a {
+      color: inherit; }
+    .fr-view strong {
+      font-weight: 700; }
+    .fr-view table[border='0'] td:not([class]), .fr-view table[border='0'] th:not([class]), .fr-view table[border='0'] td[class=""], .fr-view table[border='0'] th[class=""] {
+      border-width: 0px; }
+    .fr-view table {
+      border: none;
+      border-collapse: collapse;
+      empty-cells: show;
+      max-width: 100%; }
+      .fr-view table td {
+        min-width: 5px; }
+      .fr-view table.fr-dashed-borders td, .fr-view table.fr-dashed-borders th {
+        border-style: dashed; }
+      .fr-view table.fr-alternate-rows tbody tr:nth-child(2n) {
+        background: whitesmoke; }
+      .fr-view table td, .fr-view table th {
+        border: 1px solid #DDD; }
+        .fr-view table td:empty, .fr-view table th:empty {
+          height: 20px; }
+        .fr-view table td.fr-highlighted, .fr-view table th.fr-highlighted {
+          border: 1px double red; }
+        .fr-view table td.fr-thick, .fr-view table th.fr-thick {
+          border-width: 2px; }
+      .fr-view table th {
+        background: #ececec; }
+    .fr-view hr {
+      clear: both;
+      user-select: none;
+      -o-user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      break-after: always;
+      page-break-after: always; }
+    .fr-view .fr-file {
+      position: relative; }
+      .fr-view .fr-file::after {
+        position: relative;
+        content: "\1F4CE";
+        font-weight: normal; }
+    .fr-view pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      overflow: visible; }
+
+.Video {
+    width: 100%;
+    height: 50vh;
+    background-image: url(y2mate.com\ -\ SAWAA輕保養感受肌膚\ SAWAA\ Refreshing\ Series\ Ocean\ Touch_1080p.mp4);
+    background-size:cover;
+    background-position: center;
+}
